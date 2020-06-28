@@ -4,9 +4,15 @@
     <list default="true" id="fd6a347e-e73c-4d2e-9164-b8419ef2dc50" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/assets/js/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/assets/js/app.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/js/pages/HomePage.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/assets/js/pages/HomePage.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/js/services/customersAPI.js" beforeDir="false" afterPath="$PROJECT_DIR$/assets/js/services/customersAPI.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/js/services/invoicesAPI.js" beforeDir="false" afterPath="$PROJECT_DIR$/assets/js/services/invoicesAPI.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/js/components/Navbar.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/assets/js/components/Navbar.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/js/pages/CustomerPage.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/assets/js/pages/CustomerPage.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/js/pages/CustomersPage.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/assets/js/pages/CustomersPage.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/js/pages/InvoicePage.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/assets/js/pages/InvoicePage.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/js/pages/InvoicesPage.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/assets/js/pages/InvoicesPage.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/js/pages/LoginPage.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/assets/js/pages/LoginPage.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/js/pages/RegisterPage.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/assets/js/pages/RegisterPage.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -158,7 +164,7 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../Bureau/oldigital-liorchamla/assets/js/components/app/Login.jsx" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../Bureau/frontend/src/components/Post.js" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.15" />
@@ -192,7 +198,7 @@
       <workItem from="1593287578209" duration="6991000" />
       <workItem from="1593328215877" duration="110000" />
       <workItem from="1593328485266" duration="8151000" />
-      <workItem from="1593345769206" duration="19637000" />
+      <workItem from="1593345769206" duration="21689000" />
     </task>
     <servers />
   </component>
