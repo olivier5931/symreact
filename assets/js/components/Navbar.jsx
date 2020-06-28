@@ -1,21 +1,26 @@
-import React from 'react';
+import React, {useContext} from 'react';
 import {NavLink} from "react-router-dom";
+import AuthAPI from "../services/authAPI";
+import AuthContext from "../contexts/AuthContext";
 
-const Navbar = () => {
+const Navbar = ({ history }) => {
+	const { isAuthenticated, setIsAuthenticated } = useContext(AuthContext);
+
+	const handleLogout = () => {
+		AuthAPI.logout();
+		setIsAuthenticated(false);
+		console.log("Vous êtes désormais déconnecté 😁");
+		history.push("/login");
+	};
+
 	return (
 		<nav className="navbar navbar-expand-lg navbar-light bg-light">
 			<NavLink className="navbar-brand" to="/">
 				SymReact !
 			</NavLink>
-			<button
-				className="navbar-toggler"
-				type="button"
-				data-toggle="collapse"
-				data-target="#navbarColor03"
-				aria-controls="navbarColor03"
-				aria-expanded="false"
-				aria-label="Toggle navigation"
-			>
+			<button	className="navbar-toggler" type="button" data-toggle="collapse"
+							 data-target="#navbarColor03"	aria-controls="navbarColor03"
+							 aria-expanded="false" aria-label="Toggle navigation">
 				<span className="navbar-toggler-icon" />
 			</button>
 
@@ -29,17 +34,22 @@ const Navbar = () => {
 					</li>
 				</ul>
 				<ul className="navbar-nav ml-auto">
-					<>
+					{(!isAuthenticated && (
+						<>
+							<li className="nav-item">
+								<NavLink to="/register" className="nav-link">Inscription</NavLink>
+							</li>
+							<li className="nav-item">
+								<NavLink to="/login" className="btn btn-success">Connexion !</NavLink>
+							</li>
+						</>
+					)) || (
 						<li className="nav-item">
-							<NavLink to="/register" className="nav-link">Inscription</NavLink>
+							<button onClick={handleLogout} className="btn btn-danger">
+								Déconnexion
+							</button>
 						</li>
-						<li className="nav-item">
-							<NavLink to="/login" className="btn btn-success">Connexion !</NavLink>
-						</li>
-					</>
-					<li className="nav-item">
-						<button className="btn btn-danger">Déconnexion</button>
-					</li>
+					)}
 				</ul>
 			</div>
 
