@@ -4,8 +4,9 @@
     <list default="true" id="fd6a347e-e73c-4d2e-9164-b8419ef2dc50" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/assets/js/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/assets/js/app.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/js/components/Navbar.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/assets/js/components/Navbar.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config/packages/security.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/config/packages/security.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/js/pages/HomePage.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/assets/js/pages/HomePage.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/js/services/customersAPI.js" beforeDir="false" afterPath="$PROJECT_DIR$/assets/js/services/customersAPI.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/js/services/invoicesAPI.js" beforeDir="false" afterPath="$PROJECT_DIR$/assets/js/services/invoicesAPI.js" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -191,7 +192,7 @@
       <workItem from="1593287578209" duration="6991000" />
       <workItem from="1593328215877" duration="110000" />
       <workItem from="1593328485266" duration="8151000" />
-      <workItem from="1593345769206" duration="6958000" />
+      <workItem from="1593345769206" duration="19637000" />
     </task>
     <servers />
   </component>
